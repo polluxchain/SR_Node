@@ -46,7 +46,7 @@ Fill the external IP that is your public IP of the Machine
 then run the following command to start the node:
 
 ```bash
-$ nohup java -Xms9G -Xmx9G -XX:ReservedCodeCacheSize=256m \
+nohup java -Xms9G -Xmx9G -XX:ReservedCodeCacheSize=256m \
              -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=512m \
              -XX:MaxDirectMemorySize=1G -XX:+PrintGCDetails \
              -XX:+PrintGCDateStamps  -Xloggc:gc.log \
